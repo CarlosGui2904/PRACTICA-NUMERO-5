@@ -24,7 +24,7 @@ if st.session_state["sesion_iniciada"]:
         opciones
     )
     
-    # Mostrar módulo de ventas (indentado correctamente)
+    # Mostrar módulo de ventas
     if seleccion == "Ventas":
         mostrar_venta()
         
