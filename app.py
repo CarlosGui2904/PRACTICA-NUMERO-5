@@ -1,6 +1,6 @@
 import streamlit as st
 from modulos.login import login
-from modulos.VENTAS import mostrar_venta
+from modulos.ventas import mostrar_venta
 
 # Inicializar variables de sesión
 if "sesion_iniciada" not in st.session_state:
