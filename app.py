@@ -31,6 +31,10 @@ if st.session_state["sesion_iniciada"]:
     if seleccion == "Ventas":
         mostrar_venta()
 
+     # Módulo de pacientes
+    elif seleccion == "Pacientes":
+        mostrar_pacientes()
+
     # Mostrar módulo de información
     elif seleccion == "Información":
         st.header("Información del sistema")
